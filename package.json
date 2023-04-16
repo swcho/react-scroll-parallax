@@ -30,7 +30,7 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "tsc": "rm -rf dist; tsc -p tsconfig.json --outDir dist",
+    "tsc": "rm -rf dist; tsc -p tsconfig.json --outDir dist --module commonjs",
     "test": "tsdx test --passWithNoTests",
     "prettier": "prettier ./ --write",
     "lint": "tsdx lint",
